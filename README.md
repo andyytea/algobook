@@ -2,4 +2,4 @@
 
 just for fun
 
-run the command `go test` in each file to test the algorithm
+run the command `go test` in each folder to test the algorithm
