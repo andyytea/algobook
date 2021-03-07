@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package insertionsort
 
 // InsertionSort sorts a list of integers in ascending order
 func InsertionSort(l []int) []int {
@@ -13,12 +11,4 @@ func InsertionSort(l []int) []int {
 		}
 	}
 	return l
-}
-
-func main() {
-	fmt.Println("running")
-	l := []int{5, 4, 3, 2, 1}
-	fmt.Println(l)
-	InsertionSort(l)
-	fmt.Println(l)
 }
