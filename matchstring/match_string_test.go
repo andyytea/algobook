@@ -1,0 +1,5 @@
+package matchstring
+
+func TestMatchString() {
+
+}
