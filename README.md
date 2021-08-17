@@ -1,5 +1,3 @@
-## Go implementations for The Algorithm Design Manual
+# code implementations (c or go)
 
-just for fun
 
-run the command `go test` in each folder to test the algorithm
