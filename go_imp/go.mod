@@ -1,3 +1,3 @@
-module github.com/andyytea/algobook/go_imp
+module github.com/aydtsang/algobook/go_imp
 
 go 1.16
