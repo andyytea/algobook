@@ -1,5 +1,0 @@
-package matchstring
-
-func TestMatchString() {
-
-}

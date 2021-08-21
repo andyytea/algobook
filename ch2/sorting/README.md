@@ -7,7 +7,7 @@ Formally, we define the **sorting problem** as:
 
 We call any given input sequence as an **instance** of a problem.
 
-[Insertion Sort](sorting.c#L10-L17)
+[Insertion Sort](sort_c/sorting.c#L10-L17)
 
 We formally state that the loop invariant is:
 
@@ -48,7 +48,7 @@ The algorithm for **merge sort** is the canonical example for the *divide-and-co
 
 The key to merge sort is the idea that a list with 0 or 1 elements is considered a sorted list. In the merge step, the left and right hand list are combined in the desired order such that the left and right input and single output at each step are all sorted list.
 
-[Merge Sort](sorting.c#L58-L93)
+[Merge Sort](sort_c/sorting.c#L59-L94)
 
 Note: my implementation of mergesort allocates memory to the heap. Depending on how you implement it, you might end up copying memory on every funciton call. Thus, `merge_sort()` requires enough heap memory to store the original array several times over.
 
