@@ -1,6 +1,6 @@
 package sort_go
 
-func InsertionSort1(arr []int) {
+func InsertionSortRange(arr []int) {
     var i, j int
     for i = range arr {
        for j = i; j > 0 && arr[j] > arr[j-1]; j-- {
@@ -9,7 +9,7 @@ func InsertionSort1(arr []int) {
    }
 }
 
-func InsertionSort2(arr []int) {
+func InsertionSortIndices(arr []int) {
     var i, j int
     alen := len(arr)
     for i = 0; i < alen; i++ {
