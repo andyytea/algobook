@@ -11,12 +11,24 @@ type node struct {
     prev *node
 }
 
+type stack interface {
+    Length()
+    Top()
+    Pop()
+    Push()
+    IsEmpty()
+}
+
 func CreateStackLL() *stack_ll {
     return &stack_ll{0, nil}
 }
 
 func (stk *stack_ll) Length() int {
     return stk.length
+}
+
+func (stk *stack_ll) IsEmpty() bool {
+    return stk.length == 0
 }
 
 func (stk *stack_ll) Top() interface{} {
@@ -54,6 +66,10 @@ func CreateStackArr() *stack_arr {
 
 func (stk *stack_arr) Length() int {
     return stk.length
+}
+
+func (stk *stack_arr) IsEmpty() bool {
+    return stk.length == 0
 }
 
 func (stk *stack_arr) Top() interface{} {
